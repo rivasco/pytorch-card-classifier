@@ -4,7 +4,7 @@ A multiclass neural network for card recognition using PyTorch.
 
 ## Overview
 
-Covers three main parts:  
+Organized in three main parts:  
 - Using PyTorch datasets and data loaders  
 - Defining a PyTorch model with a pretrained backbone  
 - Setting up a training loop
@@ -12,7 +12,7 @@ Covers three main parts:
 ## Steps
 
 1. **Dataset**  
-   Organize your data for PyTorch and use data loaders for batching and shuffling.
+   Organize your data for PyTorch and use data loaders for batching and shuffling. The cards dataset can be found here: https://www.kaggle.com/datasets/gpiosenka/cards-image-datasetclassification/data.
 
 2. **Model**  
    - Use a pretrained model from `timm` or similar.  
